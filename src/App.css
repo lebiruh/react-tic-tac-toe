@@ -1,8 +1,25 @@
 .App {
+  /* display: flex;
+  flex-direction: column; */
   text-align: center;
+  /* justify-content: center; */
+  /* align-self: center;   */
 }
 
-.App-logo {
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 500px;
+  height: 500px;
+  background-color: #ffe4c4;
+}
+
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +52,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
